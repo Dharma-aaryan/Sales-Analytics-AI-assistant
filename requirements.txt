@@ -1,0 +1,25 @@
+# --- Core UI ---
+streamlit>=1.36.0
+
+# --- Data handling ---
+pandas>=2.2.0
+numpy>=1.26.0
+
+# --- HTTP client (for Ollama local API) ---
+requests>=2.31.0
+
+# --- Plotting / charts ---
+matplotlib>=3.8.0
+altair>=5.2.0
+
+# --- Date parsing ---
+python-dateutil>=2.9.0
+
+# --- Development / typing ---
+typing-extensions>=4.9.0
+
+# --- Hugging Face ecosystem (optional, if using LLaMA from HF) ---
+transformers>=4.41.0
+torch>=2.2.0
+accelerate>=0.30.0
+sentencepiece>=0.2.0
